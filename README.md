@@ -35,3 +35,7 @@ Predicting scores for each algorithm.
 Filtering the Job Categorized into a new csv file named Filtered.csv
 Loading the model to predict and Testing. 
 You can Save any model you want using above code.
+
+The Wordcloud below show the most common words occuring in the subject of Job category
+
+![download (1)](https://user-images.githubusercontent.com/62007551/96734054-c2add280-13d7-11eb-894f-4065d7efb445.png)
