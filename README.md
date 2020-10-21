@@ -39,3 +39,11 @@ You can Save any model you want using above code.
 The Wordcloud below show the most common words occuring in the subject of Job category
 
 ![download (1)](https://user-images.githubusercontent.com/62007551/96734054-c2add280-13d7-11eb-894f-4065d7efb445.png)
+
+
+
+Result:
+The Filtered subjects are saved in Filtered.csv file. These are the mail's Subject which contained the word "Thank you for applying" which are categorized as "Job".
+
+![Screenshot (333)](https://user-images.githubusercontent.com/62007551/96734632-5f707000-13d8-11eb-8931-80c09786f086.png)
+
