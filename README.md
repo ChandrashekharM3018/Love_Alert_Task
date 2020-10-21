@@ -1,28 +1,28 @@
 # Love_Alert_Task
 
-# Title:Job Categorizing Model
+## Title:Job Categorizing Model
 
-About :
+### About :
 Scrape emails from an existing email address on the basis of their subject containing keywords "Thank you for applying" and categorise them into a "job" category.
 Emails containing subject label as "Thank you for applying" is collected into a csv file named "ScrappedData.csv" and with other subject labels are saved as "Othersubjects.csv"
 Both of them are merged into a single csv file named as Mydata.csv.Then a Model is built which filters the JOB category subject contanining mails into a separate csv file named as "Filtered.csv".All of these csv files are fed into a folder named Data.
 
-Installations: 
+### Installations: 
 IDE: Jupyter Notebook
 This project requires the use of libraries such as ScikitLearn , pickle, Matplotlib, pandas, numpy,seaborn, Nltk,Countvectorizer,TFidfTransformer.
 
-Run:
+### Run:
 In a terminal or command window, navigate to the top-level project directory (that contains this README) and run one of the following commands:
 -jupyter notebook "JobCategorozingModel.ipynb"
 This will open the Jupyter Notebook software and project file in your browser.
 
-Dataset:
+### Dataset:
 Emails containing subject label as "Thank you for applying" is collected into a csv file named ScrappedData.csv and with other subject labels are saved as Othersubjects.csv
 Both of them are merged into a single csv file named as Mydata.csv.Then a Model is built which filters the JOB category subject contanining mails into a separate csv file named as Filtered.csv
 All of these csv files are fed into a folder named Data.
 
 
-Workflow:
+### Workflow:
 Data is read from the Mydata.csv file.
 It has two output labels: Job and Others.
 Data Preprocessing and Creating spam wordcloud and ham wordcloud.
