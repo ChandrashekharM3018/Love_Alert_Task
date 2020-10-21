@@ -19,7 +19,9 @@ This will open the Jupyter Notebook software and project file in your browser.
 ### Dataset:
 Emails containing subject label as "Thank you for applying" is collected into a csv file named ScrappedData.csv and with other subject labels are saved as Othersubjects.csv
 Both of them are merged into a single csv file named as Mydata.csv.Then a Model is built which filters the JOB category subject contanining mails into a separate csv file named as Filtered.csv
-All of these csv files are fed into a folder named Data.
+All of these csv files are fed into a folder named Data. 
+
+![download](https://user-images.githubusercontent.com/62007551/96733870-8c705300-13d7-11eb-966a-227f3e308a13.png)
 
 
 ### Workflow:
